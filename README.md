@@ -29,7 +29,7 @@ Alternatively, open Packages/manifest.json and add the following to the dependen
 ```json
 {
     "dependencies": {
-      "work.ctrl3d.oscmd": "https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd"
+      "work.ctrl3d.os-cmd": "https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd"
   }
 }
 ```
