@@ -27,12 +27,12 @@ jobs:
         run: dotnet tool restore
 
       - name: Build
-        run: docfx Documentation/docfx.json
+        run: docfx docs/docfx.json
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Documentation/_site
+          path: docs/_site
 
   deploy:
     needs: build
