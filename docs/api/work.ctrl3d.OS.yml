@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: work.ctrl3d.OS
+  commentId: N:work.ctrl3d.OS
+  id: work.ctrl3d.OS
+  children:
+  - work.ctrl3d.OS.IShell
+  - work.ctrl3d.OS.ISystem
+  - work.ctrl3d.OS.LinuxShell
+  - work.ctrl3d.OS.OSCmd
+  - work.ctrl3d.OS.OSXShell
+  - work.ctrl3d.OS.ShellFactory
+  - work.ctrl3d.OS.WindowsShell
+  langs:
+  - csharp
+  - vb
+  name: work.ctrl3d.OS
+  nameWithType: work.ctrl3d.OS
+  fullName: work.ctrl3d.OS
+  type: Namespace
+references:
+- uid: work.ctrl3d.OS.IShell
+  commentId: T:work.ctrl3d.OS.IShell
+  parent: work.ctrl3d.OS
+  href: work.ctrl3d.OS.IShell.html
+  name: IShell
+  nameWithType: IShell
+  fullName: work.ctrl3d.OS.IShell
+- uid: work.ctrl3d.OS.ISystem
+  commentId: T:work.ctrl3d.OS.ISystem
+  parent: work.ctrl3d.OS
+  href: work.ctrl3d.OS.ISystem.html
+  name: ISystem
+  nameWithType: ISystem
+  fullName: work.ctrl3d.OS.ISystem
+- uid: work.ctrl3d.OS.LinuxShell
+  commentId: T:work.ctrl3d.OS.LinuxShell
+  href: work.ctrl3d.OS.LinuxShell.html
+  name: LinuxShell
+  nameWithType: LinuxShell
+  fullName: work.ctrl3d.OS.LinuxShell
+- uid: work.ctrl3d.OS.OSCmd
+  commentId: T:work.ctrl3d.OS.OSCmd
+  href: work.ctrl3d.OS.OSCmd.html
+  name: OSCmd
+  nameWithType: OSCmd
+  fullName: work.ctrl3d.OS.OSCmd
+- uid: work.ctrl3d.OS.OSXShell
+  commentId: T:work.ctrl3d.OS.OSXShell
+  href: work.ctrl3d.OS.OSXShell.html
+  name: OSXShell
+  nameWithType: OSXShell
+  fullName: work.ctrl3d.OS.OSXShell
+- uid: work.ctrl3d.OS.ShellFactory
+  commentId: T:work.ctrl3d.OS.ShellFactory
+  href: work.ctrl3d.OS.ShellFactory.html
+  name: ShellFactory
+  nameWithType: ShellFactory
+  fullName: work.ctrl3d.OS.ShellFactory
+- uid: work.ctrl3d.OS.WindowsShell
+  commentId: T:work.ctrl3d.OS.WindowsShell
+  href: work.ctrl3d.OS.WindowsShell.html
+  name: WindowsShell
+  nameWithType: WindowsShell
+  fullName: work.ctrl3d.OS.WindowsShell
+- uid: work.ctrl3d.OS
+  commentId: N:work.ctrl3d.OS
+  href: work.html
+  name: work.ctrl3d.OS
+  nameWithType: work.ctrl3d.OS
+  fullName: work.ctrl3d.OS
+  spec.csharp:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html
+  spec.vb:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html

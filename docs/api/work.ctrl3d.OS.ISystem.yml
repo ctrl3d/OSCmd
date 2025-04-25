@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: work.ctrl3d.OS.ISystem
+  commentId: T:work.ctrl3d.OS.ISystem
+  id: ISystem
+  parent: work.ctrl3d.OS
+  children:
+  - work.ctrl3d.OS.ISystem.Reboot
+  - work.ctrl3d.OS.ISystem.Shutdown
+  - work.ctrl3d.OS.ISystem.Sleep
+  langs:
+  - csharp
+  - vb
+  name: ISystem
+  nameWithType: ISystem
+  fullName: work.ctrl3d.OS.ISystem
+  type: Interface
+  source:
+    id: ISystem
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    startLine: 2
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: public interface ISystem
+    content.vb: Public Interface ISystem
+- uid: work.ctrl3d.OS.ISystem.Reboot
+  commentId: M:work.ctrl3d.OS.ISystem.Reboot
+  id: Reboot
+  parent: work.ctrl3d.OS.ISystem
+  langs:
+  - csharp
+  - vb
+  name: Reboot()
+  nameWithType: ISystem.Reboot()
+  fullName: work.ctrl3d.OS.ISystem.Reboot()
+  type: Method
+  source:
+    id: Reboot
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    startLine: 4
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: void Reboot()
+    content.vb: Sub Reboot()
+  overload: work.ctrl3d.OS.ISystem.Reboot*
+- uid: work.ctrl3d.OS.ISystem.Shutdown
+  commentId: M:work.ctrl3d.OS.ISystem.Shutdown
+  id: Shutdown
+  parent: work.ctrl3d.OS.ISystem
+  langs:
+  - csharp
+  - vb
+  name: Shutdown()
+  nameWithType: ISystem.Shutdown()
+  fullName: work.ctrl3d.OS.ISystem.Shutdown()
+  type: Method
+  source:
+    id: Shutdown
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    startLine: 5
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: void Shutdown()
+    content.vb: Sub Shutdown()
+  overload: work.ctrl3d.OS.ISystem.Shutdown*
+- uid: work.ctrl3d.OS.ISystem.Sleep
+  commentId: M:work.ctrl3d.OS.ISystem.Sleep
+  id: Sleep
+  parent: work.ctrl3d.OS.ISystem
+  langs:
+  - csharp
+  - vb
+  name: Sleep()
+  nameWithType: ISystem.Sleep()
+  fullName: work.ctrl3d.OS.ISystem.Sleep()
+  type: Method
+  source:
+    id: Sleep
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    startLine: 6
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: void Sleep()
+    content.vb: Sub Sleep()
+  overload: work.ctrl3d.OS.ISystem.Sleep*
+references:
+- uid: work.ctrl3d.OS
+  commentId: N:work.ctrl3d.OS
+  href: work.html
+  name: work.ctrl3d.OS
+  nameWithType: work.ctrl3d.OS
+  fullName: work.ctrl3d.OS
+  spec.csharp:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html
+  spec.vb:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html
+- uid: work.ctrl3d.OS.ISystem.Reboot*
+  commentId: Overload:work.ctrl3d.OS.ISystem.Reboot
+  href: work.ctrl3d.OS.ISystem.html#work_ctrl3d_OS_ISystem_Reboot
+  name: Reboot
+  nameWithType: ISystem.Reboot
+  fullName: work.ctrl3d.OS.ISystem.Reboot
+- uid: work.ctrl3d.OS.ISystem.Shutdown*
+  commentId: Overload:work.ctrl3d.OS.ISystem.Shutdown
+  href: work.ctrl3d.OS.ISystem.html#work_ctrl3d_OS_ISystem_Shutdown
+  name: Shutdown
+  nameWithType: ISystem.Shutdown
+  fullName: work.ctrl3d.OS.ISystem.Shutdown
+- uid: work.ctrl3d.OS.ISystem.Sleep*
+  commentId: Overload:work.ctrl3d.OS.ISystem.Sleep
+  href: work.ctrl3d.OS.ISystem.html#work_ctrl3d_OS_ISystem_Sleep
+  name: Sleep
+  nameWithType: ISystem.Sleep
+  fullName: work.ctrl3d.OS.ISystem.Sleep

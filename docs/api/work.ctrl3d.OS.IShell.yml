@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: work.ctrl3d.OS.IShell
+  commentId: T:work.ctrl3d.OS.IShell
+  id: IShell
+  parent: work.ctrl3d.OS
+  children:
+  - work.ctrl3d.OS.IShell.Run(System.String,System.String)
+  - work.ctrl3d.OS.IShell.RunAsync(System.String,System.String)
+  - work.ctrl3d.OS.IShell.System
+  langs:
+  - csharp
+  - vb
+  name: IShell
+  nameWithType: IShell
+  fullName: work.ctrl3d.OS.IShell
+  type: Interface
+  source:
+    id: IShell
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
+    startLine: 4
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: public interface IShell
+    content.vb: Public Interface IShell
+- uid: work.ctrl3d.OS.IShell.Run(System.String,System.String)
+  commentId: M:work.ctrl3d.OS.IShell.Run(System.String,System.String)
+  id: Run(System.String,System.String)
+  parent: work.ctrl3d.OS.IShell
+  langs:
+  - csharp
+  - vb
+  name: Run(string, string)
+  nameWithType: IShell.Run(string, string)
+  fullName: work.ctrl3d.OS.IShell.Run(string, string)
+  type: Method
+  source:
+    id: Run
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
+    startLine: 6
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: string Run(string command, string arguments = "")
+    parameters:
+    - id: command
+      type: System.String
+    - id: arguments
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function Run(command As String, arguments As String = "") As String
+  overload: work.ctrl3d.OS.IShell.Run*
+  nameWithType.vb: IShell.Run(String, String)
+  fullName.vb: work.ctrl3d.OS.IShell.Run(String, String)
+  name.vb: Run(String, String)
+- uid: work.ctrl3d.OS.IShell.RunAsync(System.String,System.String)
+  commentId: M:work.ctrl3d.OS.IShell.RunAsync(System.String,System.String)
+  id: RunAsync(System.String,System.String)
+  parent: work.ctrl3d.OS.IShell
+  langs:
+  - csharp
+  - vb
+  name: RunAsync(string, string)
+  nameWithType: IShell.RunAsync(string, string)
+  fullName: work.ctrl3d.OS.IShell.RunAsync(string, string)
+  type: Method
+  source:
+    id: RunAsync
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
+    startLine: 7
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: Task<string> RunAsync(string command, string arguments = "")
+    parameters:
+    - id: command
+      type: System.String
+    - id: arguments
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function RunAsync(command As String, arguments As String = "") As Task(Of String)
+  overload: work.ctrl3d.OS.IShell.RunAsync*
+  nameWithType.vb: IShell.RunAsync(String, String)
+  fullName.vb: work.ctrl3d.OS.IShell.RunAsync(String, String)
+  name.vb: RunAsync(String, String)
+- uid: work.ctrl3d.OS.IShell.System
+  commentId: P:work.ctrl3d.OS.IShell.System
+  id: System
+  parent: work.ctrl3d.OS.IShell
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: IShell.System
+  fullName: work.ctrl3d.OS.IShell.System
+  type: Property
+  source:
+    id: System
+    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
+    startLine: 8
+  namespace: work.ctrl3d.OS
+  syntax:
+    content: ISystem System { get; }
+    parameters: []
+    return:
+      type: work.ctrl3d.OS.ISystem
+    content.vb: ReadOnly Property System As ISystem
+  overload: work.ctrl3d.OS.IShell.System*
+references:
+- uid: work.ctrl3d.OS
+  commentId: N:work.ctrl3d.OS
+  href: work.html
+  name: work.ctrl3d.OS
+  nameWithType: work.ctrl3d.OS
+  fullName: work.ctrl3d.OS
+  spec.csharp:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html
+  spec.vb:
+  - uid: work
+    name: work
+    href: work.html
+  - name: .
+  - uid: work.ctrl3d
+    name: ctrl3d
+    href: work.ctrl3d.html
+  - name: .
+  - uid: work.ctrl3d.OS
+    name: OS
+    href: work.ctrl3d.OS.html
+- uid: work.ctrl3d.OS.IShell.Run*
+  commentId: Overload:work.ctrl3d.OS.IShell.Run
+  href: work.ctrl3d.OS.IShell.html#work_ctrl3d_OS_IShell_Run_System_String_System_String_
+  name: Run
+  nameWithType: IShell.Run
+  fullName: work.ctrl3d.OS.IShell.Run
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: work.ctrl3d.OS.IShell.RunAsync*
+  commentId: Overload:work.ctrl3d.OS.IShell.RunAsync
+  href: work.ctrl3d.OS.IShell.html#work_ctrl3d_OS_IShell_RunAsync_System_String_System_String_
+  name: RunAsync
+  nameWithType: IShell.RunAsync
+  fullName: work.ctrl3d.OS.IShell.RunAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: work.ctrl3d.OS.IShell.System*
+  commentId: Overload:work.ctrl3d.OS.IShell.System
+  href: work.ctrl3d.OS.IShell.html#work_ctrl3d_OS_IShell_System
+  name: System
+  nameWithType: IShell.System
+  fullName: work.ctrl3d.OS.IShell.System
+- uid: work.ctrl3d.OS.ISystem
+  commentId: T:work.ctrl3d.OS.ISystem
+  parent: work.ctrl3d.OS
+  href: work.ctrl3d.OS.ISystem.html
+  name: ISystem
+  nameWithType: ISystem
+  fullName: work.ctrl3d.OS.ISystem
