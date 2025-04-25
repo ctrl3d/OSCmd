@@ -1,12 +1,12 @@
 {
-    "name": "work.ctrl3d.os-cmd",
+    "name": "work.ctrl3d.oscmd",
     "version": "0.1.0",
     "displayName": "OSCmd",
     "description": "A Unity package for cross-platform shell command execution and basic system control utilities.",
     "unity": "2022.1",
-    "documentationUrl": "https://example.com/",
-    "changelogUrl": "https://example.com/changelog.html",
-    "licensesUrl": "https://example.com/licensing.html",
+    "documentationUrl": "https://ctrl3d.github.io/OSCmd",
+    "changelogUrl": "https://github.com/ctrl3d/OSCmd/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/ctrl3d/OSCmd/blob/main/LICENSE",
     "dependencies": {
       
    },
