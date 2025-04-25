@@ -25,7 +25,7 @@ _layout: landing
 3. Enter the following URL:
 
  ```
- https://github.com/ctrl3d/OSCmd.git
+ https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd
  ```
 
 Alternatively, open Packages/manifest.json and add the following to the dependencies block:
@@ -33,7 +33,7 @@ Alternatively, open Packages/manifest.json and add the following to the dependen
 ```json
 {
     "dependencies": {
-      "work.ctrl3d.oscmd": "https://github.com/ctrl3d/OSCmd.git"
+      "work.ctrl3d.os-cmd": "https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd"
   }
 }
 ```

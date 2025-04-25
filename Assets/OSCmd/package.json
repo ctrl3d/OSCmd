@@ -1,25 +1,24 @@
 {
-    "name": "work.ctrl3d.oscmd",
-    "version": "0.1.0",
-    "displayName": "OSCmd",
-    "description": "A Unity package for cross-platform shell command execution and basic system control utilities.",
-    "unity": "2022.1",
-    "documentationUrl": "https://ctrl3d.github.io/OSCmd",
-    "changelogUrl": "https://github.com/ctrl3d/OSCmd/blob/main/CHANGELOG.md",
-    "licensesUrl": "https://github.com/ctrl3d/OSCmd/blob/main/LICENSE",
-    "dependencies": {
-      
-   },
-   "keywords": [
-      "unity",
-      "os",
-      "cmd",
-      "shell",
-      "bash"
-    ],
-    "author": {
-      "name": "Seungmin Lee",
-      "email": "ctrl3d@gmail.com",
-      "url": "https://ctrl3d.work"
-    }
+  "name": "work.ctrl3d.os-cmd",
+  "version": "0.1.0",
+  "displayName": "OSCmd",
+  "description": "A Unity package for cross-platform shell command execution and basic system control utilities.",
+  "unity": "2022.1",
+  "documentationUrl": "https://ctrl3d.github.io/OSCmd",
+  "changelogUrl": "https://github.com/ctrl3d/OSCmd/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ctrl3d/OSCmd/blob/main/LICENSE",
+  "dependencies": {
+  },
+  "keywords": [
+    "unity",
+    "os",
+    "cmd",
+    "shell",
+    "bash"
+  ],
+  "author": {
+    "name": "Seungmin Lee",
+    "email": "ctrl3d@gmail.com",
+    "url": "https://ctrl3d.work"
   }
+}
