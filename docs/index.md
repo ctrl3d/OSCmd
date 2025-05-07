@@ -38,6 +38,16 @@ Alternatively, open Packages/manifest.json and add the following to the dependen
 }
 ```
 
+
+## UniTask Support
+
+OSCmd supports UniTask for improved async operations. To enable UniTask support:
+
+1. Make sure [UniTask](https://github.com/Cysharp/UniTask) is installed in your project
+2. UniTask support will be automatically enabled through the `UNITASK_SUPPORT` scripting define symbol
+
+If UniTask is not installed in your project, OSCmd will fall back to using standard C# Tasks.
+
 ## Usage
 
 ```csharp
