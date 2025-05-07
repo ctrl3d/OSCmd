@@ -5,6 +5,7 @@
 > OSCmd is currently released as a preview version. Feedback through issues or pull requests would be appreciated.
 
 ---
+
 ## Features
 
 - Platform-specific command execution (sync/async)
@@ -28,11 +29,20 @@ Alternatively, open Packages/manifest.json and add the following to the dependen
 
 ```json
 {
-    "dependencies": {
-      "work.ctrl3d.os-cmd": "https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd"
+  "dependencies": {
+    "work.ctrl3d.os-cmd": "https://github.com/ctrl3d/OSCmd.git?path=Assets/OSCmd"
   }
 }
 ```
+
+## UniTask Support
+
+OSCmd supports UniTask for improved async operations. To enable UniTask support:
+
+1. Make sure [UniTask](https://github.com/Cysharp/UniTask) is installed in your project
+2. UniTask support will be automatically enabled through the `UNITASK_SUPPORT` scripting define symbol
+
+If UniTask is not installed in your project, OSCmd will fall back to using standard C# Tasks.
 
 ## Usage
 
@@ -49,6 +59,7 @@ osCmd.System.Suhtdown();
 osCmd.System.Sleep();
 
 ```
+
 ---
 
 ## Contribution
