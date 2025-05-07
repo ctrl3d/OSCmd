@@ -24,8 +24,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd
   type: Class
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: OSCmd
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 10
   namespace: work.ctrl3d.OS
   summary: >-
@@ -60,8 +64,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.OSCmd(work.ctrl3d.OS.IShell)
   type: Constructor
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: .ctor
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 23
   namespace: work.ctrl3d.OS
   summary: >-
@@ -94,8 +102,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.Run(string, string)
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Run
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 34
   namespace: work.ctrl3d.OS
   summary: Runs the specified command synchronously with optional arguments.
@@ -129,8 +141,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.RunAsync(string, string)
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: RunAsync
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 45
   namespace: work.ctrl3d.OS
   summary: Runs the specified command asynchronously with optional arguments.
@@ -164,8 +180,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.IsWindows()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: IsWindows
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 54
   namespace: work.ctrl3d.OS
   summary: Checks if the current operating system is Windows.
@@ -189,8 +209,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.IsLinux()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: IsLinux
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 60
   namespace: work.ctrl3d.OS
   summary: Checks if the current operating system is Linux.
@@ -214,8 +238,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.IsOSX()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: IsOSX
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 66
   namespace: work.ctrl3d.OS
   summary: Checks if the current operating system is macOS.
@@ -239,8 +267,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.GetOSArchitecture()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: GetOSArchitecture
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 72
   namespace: work.ctrl3d.OS
   summary: Gets the architecture of the current operating system.
@@ -264,8 +296,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.GetOSDescription()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: GetOSDescription
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 78
   namespace: work.ctrl3d.OS
   summary: Gets the description of the current operating system.
@@ -289,8 +325,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.Reboot()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Reboot
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 83
   namespace: work.ctrl3d.OS
   summary: Initiates a system reboot.
@@ -311,8 +351,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.Shutdown()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Shutdown
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 88
   namespace: work.ctrl3d.OS
   summary: Initiates a system shutdown.
@@ -333,8 +377,12 @@ items:
   fullName: work.ctrl3d.OS.OSCmd.Sleep()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/OSCmd.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Sleep
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/OSCmd.cs
+    path: ../Assets/OSCmd/Runtime/OSCmd.cs
     startLine: 93
   namespace: work.ctrl3d.OS
   summary: Puts the system into sleep mode.

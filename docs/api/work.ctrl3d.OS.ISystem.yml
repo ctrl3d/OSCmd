@@ -16,8 +16,12 @@ items:
   fullName: work.ctrl3d.OS.ISystem
   type: Interface
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ISystem.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: ISystem
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    path: ../Assets/OSCmd/Runtime/ISystem.cs
     startLine: 2
   namespace: work.ctrl3d.OS
   syntax:
@@ -35,8 +39,12 @@ items:
   fullName: work.ctrl3d.OS.ISystem.Reboot()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ISystem.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Reboot
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    path: ../Assets/OSCmd/Runtime/ISystem.cs
     startLine: 4
   namespace: work.ctrl3d.OS
   syntax:
@@ -55,8 +63,12 @@ items:
   fullName: work.ctrl3d.OS.ISystem.Shutdown()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ISystem.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Shutdown
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    path: ../Assets/OSCmd/Runtime/ISystem.cs
     startLine: 5
   namespace: work.ctrl3d.OS
   syntax:
@@ -75,8 +87,12 @@ items:
   fullName: work.ctrl3d.OS.ISystem.Sleep()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ISystem.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Sleep
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ISystem.cs
+    path: ../Assets/OSCmd/Runtime/ISystem.cs
     startLine: 6
   namespace: work.ctrl3d.OS
   syntax:

@@ -14,8 +14,12 @@ items:
   fullName: work.ctrl3d.OS.ShellFactory
   type: Class
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ShellFactory.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: ShellFactory
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ShellFactory.cs
+    path: ../Assets/OSCmd/Runtime/ShellFactory.cs
     startLine: 5
   namespace: work.ctrl3d.OS
   syntax:
@@ -43,8 +47,12 @@ items:
   fullName: work.ctrl3d.OS.ShellFactory.Create()
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/ShellFactory.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Create
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/ShellFactory.cs
+    path: ../Assets/OSCmd/Runtime/ShellFactory.cs
     startLine: 7
   namespace: work.ctrl3d.OS
   syntax:

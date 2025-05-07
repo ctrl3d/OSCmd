@@ -16,9 +16,13 @@ items:
   fullName: work.ctrl3d.OS.IShell
   type: Interface
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/IShell.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: IShell
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
-    startLine: 4
+    path: ../Assets/OSCmd/Runtime/IShell.cs
+    startLine: 8
   namespace: work.ctrl3d.OS
   syntax:
     content: public interface IShell
@@ -35,9 +39,13 @@ items:
   fullName: work.ctrl3d.OS.IShell.Run(string, string)
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/IShell.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: Run
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
-    startLine: 6
+    path: ../Assets/OSCmd/Runtime/IShell.cs
+    startLine: 10
   namespace: work.ctrl3d.OS
   syntax:
     content: string Run(string command, string arguments = "")
@@ -65,9 +73,13 @@ items:
   fullName: work.ctrl3d.OS.IShell.RunAsync(string, string)
   type: Method
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/IShell.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: RunAsync
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
-    startLine: 7
+    path: ../Assets/OSCmd/Runtime/IShell.cs
+    startLine: 15
   namespace: work.ctrl3d.OS
   syntax:
     content: Task<string> RunAsync(string command, string arguments = "")
@@ -95,9 +107,13 @@ items:
   fullName: work.ctrl3d.OS.IShell.System
   type: Property
   source:
+    remote:
+      path: Assets/OSCmd/Runtime/IShell.cs
+      branch: main
+      repo: https://github.com/ctrl3d/OSCmd.git
     id: System
-    path: D:/UnityProjects/OSCmd/Assets/OSCmd/Runtime/IShell.cs
-    startLine: 8
+    path: ../Assets/OSCmd/Runtime/IShell.cs
+    startLine: 17
   namespace: work.ctrl3d.OS
   syntax:
     content: ISystem System { get; }
