@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
-namespace work.ctrl3d.OS
+namespace work.ctrl3d
 {
     /// <summary>
     /// Provides OS-level command execution and utility methods.

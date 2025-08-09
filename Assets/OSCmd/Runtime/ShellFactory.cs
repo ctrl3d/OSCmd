@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace work.ctrl3d.OS
+namespace work.ctrl3d
 {
     public static class ShellFactory
     {

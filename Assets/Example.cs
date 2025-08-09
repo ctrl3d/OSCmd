@@ -1,5 +1,5 @@
 using UnityEngine;
-using work.ctrl3d.OS;
+using work.ctrl3d;
 
 public class Example : MonoBehaviour
 {

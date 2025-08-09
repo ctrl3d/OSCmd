@@ -4,7 +4,7 @@ using Cysharp.Threading.Tasks;
 using System.Threading.Tasks;
 #endif
 
-namespace work.ctrl3d.OS
+namespace work.ctrl3d
 {
     public interface IShell
     {

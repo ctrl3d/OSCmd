@@ -1,5 +1,4 @@
-﻿ 
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Text;
 #if USE_UNITASK
@@ -8,7 +7,7 @@ using Cysharp.Threading.Tasks;
 using System.Threading.Tasks;
 #endif
 
-namespace work.ctrl3d.OS
+namespace work.ctrl3d
 {
     public class WindowsShell : IShell, ISystem
     {
