@@ -1,4 +1,4 @@
-﻿#if UNITASK_SUPPORT
+﻿#if USE_UNITASK
 using Cysharp.Threading.Tasks;
 #else
 using System.Threading.Tasks;
@@ -10,7 +10,7 @@ namespace work.ctrl3d.OS
     {
         string Run(string command, string arguments = "");
 
-#if UNITASK_SUPPORT
+#if USE_UNITASK
         UniTask<string> RunAsync(string command, string arguments = "");
 #else
         Task<string> RunAsync(string command, string arguments = "");

@@ -1,11 +1,12 @@
-﻿#if UNITASK_SUPPORT
+﻿ 
+using System;
+using System.Diagnostics;
+using System.Text;
+#if USE_UNITASK
 using Cysharp.Threading.Tasks;
 #else
 using System.Threading.Tasks;
 #endif
-using System;
-using System.Diagnostics;
-using System.Text;
 
 namespace work.ctrl3d.OS
 {
@@ -50,7 +51,7 @@ namespace work.ctrl3d.OS
             }
         }
 
-#if UNITASK_SUPPORT
+#if USE_UNITASK
         public async UniTask<string> RunAsync(string command, string arguments = "")
         {
             var args = $"/c {command} {arguments} 2>&1";
